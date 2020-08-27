@@ -1,0 +1,1 @@
+const leader = arr => arr.filter((v, i) => v === Math.max(...arr.slice(i)));
