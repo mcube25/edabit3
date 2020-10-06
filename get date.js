@@ -1,0 +1,1 @@
+const digitalClock = s => new Date(s * 1000).toISOString().slice(11, 19);
