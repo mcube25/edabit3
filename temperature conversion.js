@@ -4,3 +4,13 @@ function tempConversion(celsius) {
 	if (k<0  ){return "Invalid"}
 else	{return [f, k]}
 }
+
+
+
+//Special Arrays
+function isSpecialArray(arr) {
+	for (let i=0; i<arr.length; i++){
+		if (arr.every((e, i)=>e%2==i%2)){return true}
+		else{return false}
+	}
+}
