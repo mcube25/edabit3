@@ -50,3 +50,12 @@ class Thermostat {
     this.fahrenheit = (celsius * 9.0) / 5 + 32;
   }
 }
+
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+export {uppercaseString, lowercaseString}
