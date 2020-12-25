@@ -19,3 +19,14 @@ let result = twinkleStar.match(starRegex); // Change this line
 let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
 let vowelRegex = /[aeiou]/gi; // Change this line
 let result = quoteSample.match(vowelRegex); // Change this line
+
+
+// Only change code below this line
+let chewieRegex = /Aa*/; // Change this line
+// Only change code above this line
+
+let result = chewieQuote.match(chewieRegex);
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // Change this line
+let result = text.match(myRegex);
