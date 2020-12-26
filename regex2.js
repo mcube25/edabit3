@@ -40,3 +40,24 @@ let result = calRegex.test(rickyAndCal);
 let caboose = "The last car on a train is the caboose";
 let lastRegex = /caboose$/; // Change this line
 let result = lastRegex.test(caboose);
+
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/gi; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g; // Change this line
+let result = quoteSample.match(nonAlphabetRegex).length;
+
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g; // Change this line
+let result = movieName.match(numRegex).length;
+
+let movieName = "2001: A Space Odyssey";
+let noNumRegex = /\D/g; // Change this line
+let result = movieName.match(noNumRegex).length;
+
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; ; // Change this line
+let result = userCheck.test(username);
