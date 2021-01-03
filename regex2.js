@@ -114,3 +114,10 @@ let result = str.replace(fixRegex, replaceText);
 let hello = "   Hello, World!  ";
 let wsRegex = /^\s+|\s+$/g; // Change this line
 let result = hello.replace(wsRegex, ""); // Change this line
+
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+console.log(typeof seven);
+console.log(typeof three)
+// Only change code below this line
