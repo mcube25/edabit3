@@ -170,3 +170,47 @@ delete foods.strawberries;
 // Only change code above this line
 
 console.log(foods);
+
+
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: true
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+function isEveryoneHere(obj) {
+  if (
+    obj.hasOwnProperty("Alan") &&
+    obj.hasOwnProperty("Jeff") &&
+    obj.hasOwnProperty("Sarah") &&
+    obj.hasOwnProperty("Ryan")
+  ) {
+    return true;
+  }
+  return false;
+}
+
+function countOnline(usersObj) {
+  // Only change code below this line
+  let result = 0;
+for (let user in usersObj){
+  if (usersObj[user].online === true){
+    result++
+  }
+}
+  return result
+  // Only change code above this line
+}
