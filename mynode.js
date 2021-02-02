@@ -65,4 +65,12 @@ fs.appendFile('mynewfile1.html', 'Hello Content' function (err){
     return err;
     console.log('funkified')
   }})
+
+  var fs = require ('fs');
+  fs.appendFile('mynewfile1.html', 'Hello Content' function (err){
+    if (err){
+      return err;
+      console.log('funkified')
+    }})
+
 //node url module
